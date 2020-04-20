@@ -1,0 +1,6 @@
+@import './landing.css';
+@import './navbar.css';
+
+.app-body {
+    margin: 0;
+}

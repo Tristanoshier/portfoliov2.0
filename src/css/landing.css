@@ -1,0 +1,15 @@
+.landing-bg {
+    background: url('../assets/bandwhand.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.name-header {
+    color: white;
+}
+
+.occupation-header {
+    color: white;
+}
