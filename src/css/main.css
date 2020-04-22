@@ -1,6 +1,8 @@
 @import './landing.css';
 @import './sitebar.css';
+@import './about.css';
 
 .app-body {
     margin: 0;
+    overflow: hidden;
 }
