@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 .about {
-    background-color: rgb(255, 251, 242)
+    background-color: var(--main-white);
 }
 
 .about-content {
@@ -14,14 +9,14 @@
 
 .about-title {
     font-size: 7rem;
-    color: #243cb9;
-    font-family: 'Playfair Display', serif;
+    color: var(--main-blue);
+    font-family: var(--main-heading-font);
     margin-left: 7rem;
 }
 
 .about-text {
-    color: rgb(95, 95, 95);
-    font-family: 'Muli', serif;
+    color: var(--main-grey);
+    font-family: var(--main-text-font);
     font-size: 18px;
     width: 500px;
     margin-left: 10rem;

@@ -3,6 +3,7 @@ import Sitebar from './components/Sitebar'
 import Landing from './components/Landing'
 import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 import './css/main.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Landing />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }

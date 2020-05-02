@@ -12,7 +12,7 @@ export default function About() {
     })
 
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div data-aos="fade-up" className="about-title">About</div>
             <div className="about-content">
                 <p data-aos="fade-up" className="about-text">

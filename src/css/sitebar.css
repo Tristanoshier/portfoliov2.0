@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* inspiration from Transversy Media  */
 
 .menu-wrap {
     position: fixed;
@@ -105,7 +105,7 @@
 }
 
 .menu-wrap .menu > div {
-    background-color: #243cb9;
+    background-color: var(--main-blue);
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
@@ -128,7 +128,7 @@
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--main-heading-font);
     font-size: 5rem;
     padding: 1rem;
 }

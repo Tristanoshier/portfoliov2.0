@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-export default function Skills() {
+export default function Projects() {
     
 
     useEffect(() => {
@@ -12,8 +12,8 @@ export default function Skills() {
     })
 
     return (
-        <div id="skills" className="skills">
-            <div data-aos="fade-up" className="skills-title">Skills</div>
+        <div id="projects" className="projects">
+            <div data-aos="fade-up" className="projects-title">Projects</div>
          
         </div>
     )

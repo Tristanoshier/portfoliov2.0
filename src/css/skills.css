@@ -1,0 +1,11 @@
+.skills {
+    background-color: var(--main-orange);
+    height: 47rem;
+}
+
+.skills-title {
+    font-size: 7rem;
+    color: var(--main-white);
+    font-family: var(--main-heading-font);
+    margin-left: 7rem;
+}

@@ -1,6 +1,25 @@
 @import './landing.css';
 @import './sitebar.css';
 @import './about.css';
+@import './skills.css';
+@import './projects.css';
+
+/* Google Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+:root {
+    /* color variables */
+    --main-orange: rgb(246, 80, 8);
+    --main-blue: #243cb9;
+    --main-pink: rgb(252, 76, 165);
+    --main-white: rgb(255, 251, 242);
+    --main-grey: rgb(95, 95, 95);
+
+    /* font variables */
+    --main-heading-font: 'Playfair Display', serif;
+    --main-text-font: 'Muli', serif;
+}
 
 .app-body {
     margin: 0;
