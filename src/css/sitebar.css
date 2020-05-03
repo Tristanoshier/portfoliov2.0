@@ -127,7 +127,7 @@
 
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: black;
+    color: var(--main-pink);
     font-family: var(--main-heading-font);
     font-size: 5rem;
     padding: 1rem;

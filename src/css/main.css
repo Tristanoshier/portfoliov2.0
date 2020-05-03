@@ -3,6 +3,7 @@
 @import './about.css';
 @import './skills.css';
 @import './projects.css';
+@import './contact.css';
 
 /* Google Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -10,8 +11,9 @@
 
 :root {
     /* color variables */
+
     --main-orange: rgb(246, 80, 8);
-    --main-blue: #243cb9;
+    --main-blue: #3d3b8e;
     --main-pink: rgb(252, 76, 165);
     --main-white: rgb(255, 251, 242);
     --main-grey: rgb(95, 95, 95);
