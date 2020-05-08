@@ -1,5 +1,7 @@
 .about {
     background-color: var(--main-white);
+    height: 100vh;
+
 }
 
 .about-content {
