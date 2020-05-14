@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeSquare, faPhoneSquare, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeSquare, faFile } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Contact() {

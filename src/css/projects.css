@@ -9,3 +9,101 @@
     font-family: var(--main-heading-font);
     margin-left: 7rem;
 }
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.pet-app {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    text-align: center;
+    min-width: 9rem;
+    min-height: 9rem;
+    border-radius: 20%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.pet-app:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.solar-app {
+    color: var(--main-white);
+    background-color: var(--main-blue); 
+    text-align: center;
+    margin: auto;
+    max-width: 9rem;
+    min-height: 9rem;
+    border-radius: 20%;
+    transform: rotate(270deg);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.5s ease-in-out; 
+}
+
+.solar-app:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.record-app {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    text-align: center;
+    min-width: 9rem;
+    min-height: 9rem;
+    border-radius: 20%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.record-app:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.pet-app-icon {
+    margin-top: 2rem;
+}
+
+.solar-app-icon {
+    margin-top: 3rem;
+    
+}
+
+.record-app-icon {
+    margin-top: 2.5rem;
+}
+
+.app-layout {
+    text-align: center;
+}
+
+.app-name {
+    font-size: 28px;
+    color: var(--main-grey);
+    font-family: var(--main-text-font);
+}
+
+.app-btn {
+    min-width: 114px;
+    min-height: 40px;
+    padding: 6px 12px;
+    background-color: var(--main-white);
+    border: solid var(--main-grey) 1px;
+    color: var(--main-grey);
+    font-size: 20px;
+    border-radius: 5%;
+    transition: background-color 0.5s ease;
+}
+
+.app-btn:hover {
+    border: none;
+    color: var(--main-white);
+    background-color: var(--main-blue);
+}

@@ -35,3 +35,26 @@
     width: 286px;
     height: 367px;
 }
+
+.about-links {
+    color: var(--main-grey);
+    font-family: var(--main-text-font);
+    font-size: 18px;
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.about-link {
+    color: var(--main-grey);
+    text-decoration: none;
+    transition: font-weight 0.5s ease;
+}
+
+.about-link:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.about-icon {
+    margin-right: 3.5rem;
+}

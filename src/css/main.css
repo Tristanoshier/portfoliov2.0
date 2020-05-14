@@ -4,6 +4,10 @@
 @import './skills.css';
 @import './projects.css';
 @import './contact.css';
+@import './footer.css';
+@import './petpals.css';
+@import './spacevisual.css';
+@import './myrecords.css';
 
 /* Google Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -26,4 +30,5 @@
 .app-body {
     margin: 0;
     overflow: hidden;
+    background-color: var(--main-white);
 }
