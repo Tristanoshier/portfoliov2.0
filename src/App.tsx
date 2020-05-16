@@ -34,14 +34,17 @@ function App() {
 
             <Route exact path="/petpals">
               <PetPals />
+              <Footer />
             </Route>
 
             <Route exact path="/solarsystem">
               <SpaceVisualizer />
+              <Footer />
             </Route>
 
             <Route exact path="/record">
               <MyRecords />
+              <Footer />
             </Route>
         </Switch>
       </Router>

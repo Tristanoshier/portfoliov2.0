@@ -1,0 +1,33 @@
+.myrecords {
+    background-color: var(--main-pink);
+}
+
+.record-title {
+    color: var(--main-white);
+}
+
+.record-section-link {
+    color: var(--main-white);
+}
+
+.record-section-link:hover {
+    color: var(--main-blue);
+}
+
+.record-about-section {
+    color: var(--main-white);
+}
+
+.record-section-btn {
+    background-color: var(--main-pink);
+    border: solid var(--main-white) 1px;
+    color: var(--main-white);
+    transition: background-color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
+}
+
+.record-section-btn:hover {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    border: solid var(--main-blue) 1px;
+}

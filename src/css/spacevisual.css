@@ -1,1 +1,33 @@
+.space-visualizer {
+    background-color: var(--main-blue);
+}
 
+.space-title {
+    color: var(--main-white);
+}
+
+.space-section-link {
+    color: var(--main-white);
+}
+
+.space-section-link:hover {
+    color: var(--main-pink);
+}
+
+.space-about-section {
+    color: var(--main-white);
+}
+
+.space-section-btn {
+    background-color: var(--main-blue);
+    border: solid var(--main-white) 1px;
+    color: var(--main-white);
+    transition: background-color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
+}
+
+.space-section-btn:hover {
+    color: var(--main-white);
+    background-color: var(--main-pink);
+    border: solid var(--main-pink) 1px;
+}
