@@ -140,17 +140,9 @@
 }
 
 
-/* iPhone 6, 7, 8 */
-@media(max-width: 375px) {
-    .menu-wrap .menu > div > div > ul > li {
-        font-size: 4rem;
-    }
-}
-
-/* iPhone 5/SE */
-@media(max-width: 320px) {
-    .menu-wrap .menu > div > div > ul > li {
-        font-size: 3rem;
+@media(max-width: 414px){
+    .menu-wrap {
+        visibility: hidden;
     }
 }
 
