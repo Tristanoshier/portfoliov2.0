@@ -76,3 +76,21 @@
         margin-bottom: 20px;
     }
 }
+
+/* Pixel 2 XL */
+@media(max-width: 411px) {
+    .skills {
+        height: 100vh;
+    }
+}
+
+/* iPhone 6, 7, 8 */
+@media(max-width: 375px) {
+    .skills {
+        height: 110vh;
+    }
+      
+    .skills-title {
+        margin-left: 5.5rem;
+    }
+}

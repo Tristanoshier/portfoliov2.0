@@ -59,10 +59,8 @@
     }
 }
 
-
 /* iPhone 6, 7, 8, 11 */
 @media(max-width: 414px){ 
-
     .contact {
         height: 70rem;
     }
@@ -73,5 +71,17 @@
 
     .contact-item {
         margin-bottom: 20px;
+    }
+}
+
+
+/* iPhone 6, 7, 8 */
+@media(max-width: 375px) {
+    .contact {
+        height: 65rem;
+    }
+
+    .contact-title {
+        margin-left: 2.7rem;
     }
 }

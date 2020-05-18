@@ -75,7 +75,7 @@
         font-size: 2rem;
     }
 }
-/* iPhone 6, 7, 8, 11 */
+/* iPhone 6 Plus, 7 Plus, 8 Plus, 11 */
 @media(max-width: 414px){
     .name-header {
         font-size: 3.6rem;
@@ -85,5 +85,12 @@
     .occupation-header {
         font-size: 1.5rem;
         height: 9vh;
+    }
+}
+
+/* iPhone 6, 7, 8 */
+@media(max-width: 375px) {
+    .name-header {
+        font-size: 3.4rem;
     }
 }
