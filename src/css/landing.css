@@ -31,3 +31,59 @@
     font-size: 2.5rem;
     color: var(--main-orange);
 }
+
+@media(max-width: 1255px) {
+    .name-header {
+        font-size: 10rem;
+        height: 50vh;
+    }
+
+    .occupation-header {
+        height: 50vh;
+    }
+}
+
+@media(max-width: 1050px) {
+    .name-header {
+        font-size: 8rem;
+        height: 60vh;
+    }
+
+    .occupation-header {
+        height: 25vh;
+    }
+}
+
+/* iPad Pro */
+@media(max-width: 1024px) {
+    .name-header {
+        height: 68vh;
+    }
+
+    .occupation-header {
+        height: 0vh;
+    }
+}
+
+/* iPad */
+@media(max-width: 768px) {
+    .name-header {
+        font-size: 6rem;
+    }
+
+    .occupation-header {
+        font-size: 2rem;
+    }
+}
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .name-header {
+        font-size: 3.6rem;
+        height: 62vh;
+    }
+
+    .occupation-header {
+        font-size: 1.5rem;
+        height: 9vh;
+    }
+}

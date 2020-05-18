@@ -35,8 +35,8 @@ export default function PetPals() {
                         </div>
 
                         <div className="live-links">
-                            <a href="https://tat-petpals-client.herokuapp.com/" target="_blank"><button className="project-section-btn live-btn pet-pals-section-btn">See Live</button></a>
-                            <a href="https://github.com/Tristanoshier/PetPals-client" target="_blank"><button className="project-section-btn live-btn pet-pals-section-btn">GitHub Repo</button></a>
+                            <a href="https://tat-petpals-client.herokuapp.com/" target="_blank"><button className="mobile-live project-section-btn live-btn pet-pals-section-btn">See Live</button></a>
+                            <a href="https://github.com/Tristanoshier/PetPals-client" target="_blank"><button className="mobile-git project-section-btn live-btn pet-pals-section-btn">GitHub Repo</button></a>
                         </div>
 
                         <div className="image-section">

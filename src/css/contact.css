@@ -49,3 +49,13 @@
     text-decoration: none;
     color: var(--main-white)
 }
+
+@media(max-width: 815px) {
+
+    .contact-title {
+        margin-left: 11rem;
+    }
+    .contact-layout {
+        margin-top: 2rem;
+    }
+}

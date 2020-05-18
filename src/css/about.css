@@ -1,12 +1,11 @@
 .about {
     background-color: var(--main-white);
-    height: 100vh;
-
 }
 
 .about-content {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .about-title {
@@ -21,20 +20,56 @@
     font-family: var(--main-text-font);
     font-size: 18px;
     width: 500px;
-    margin-left: 10rem;
     line-height: 2;
     margin-top: 2rem;
+    margin-right: 6rem;
 }
 
 .about-picture {
-    margin-left: 20rem;
     margin-top: 2rem;
 }
 
 .picture-of-me {
+    background-image: url("../assets/IMG_0444 2.JPG");
     width: 286px;
     height: 367px;
+    background-size: cover;
+    border-radius: 5%;
+    transition: background-image 0.3s ease-in-out;
 }
+
+.picture-of-me:hover {
+    background-image: url("../assets/picofme.png")
+}
+
+/* code is from w3schools */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    bottom: 102%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    background-color: var(--main-grey);
+    color: var(--main-white);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 .about-links {
     color: var(--main-grey);
@@ -57,4 +92,20 @@
 
 .about-icon {
     margin-right: 3.5rem;
+}
+
+/* iPad */
+@media(max-width: 768px) {
+    .about-text {
+        margin-right: 0;
+    }
+
+    .about-title {
+        margin-left: 13rem;
+    }
+}
+
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    
 }

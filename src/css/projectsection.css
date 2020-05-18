@@ -3,7 +3,6 @@
 }
 
 .project-title {
-    font-size: 7rem;
     font-family: var(--main-heading-font);
     height: 3rem;
     margin-left: 2rem;
@@ -40,6 +39,10 @@
     max-width: 550px;
 }
 
+.overview-section-link {
+    color: white;
+}
+
 .image-section {
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +65,22 @@
 
 .live-btn {
     margin-top: 2rem;
+}
+
+@media(max-width: 1024px) {
+    .project-about-section {
+        font-size: 18px;
+    }
+    
+    .mobile-live {
+        margin-left: 5rem;
+    }
+
+    .mobile-git {
+        margin-right: 5rem;
+    }
+
+    
 }
 
 

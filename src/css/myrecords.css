@@ -4,6 +4,7 @@
 
 .record-title {
     color: var(--main-white);
+    font-size: 7rem;
 }
 
 .record-section-link {

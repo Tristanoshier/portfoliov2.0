@@ -4,6 +4,7 @@
 
 .space-title {
     color: var(--main-white);
+    font-size: 7rem;
 }
 
 .space-section-link {
@@ -30,4 +31,18 @@
     color: var(--main-white);
     background-color: var(--main-pink);
     border: solid var(--main-pink) 1px;
+}
+
+@media(max-width: 1280px) {
+    .space-title {
+        margin-top: 1.3rem;
+        font-size: 5rem;
+    }
+}
+
+/* iPad */
+@media(max-width: 768px) {
+    .space-title {
+        font-size: 3.5rem;
+    }
 }

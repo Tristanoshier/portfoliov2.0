@@ -108,3 +108,10 @@
     color: var(--main-white);
     background-color: var(--main-blue);
 }
+
+/* iPad */
+@media(max-width: 768px) {
+    .projects-title {
+        margin-left: 11rem;
+    }
+}

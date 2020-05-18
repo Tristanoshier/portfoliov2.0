@@ -39,3 +39,24 @@
 .skill-link {
     text-decoration: none;
 }
+
+/* iPad Pro */
+@media(max-width: 1024px) {
+    .skills {
+        height: 60vh;
+    }
+
+    .skills-layout {
+        padding-left: 0;
+    }  
+}
+
+/* iPad */
+@media(max-width: 768px) {
+    .skills-title {
+        margin-left: 15rem;
+    }
+    .skills-layout {
+        margin-top: 2rem;
+    }
+}
