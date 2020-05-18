@@ -79,8 +79,30 @@
     .mobile-git {
         margin-right: 5rem;
     }
-
-    
 }
 
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .project-title {
+        margin-top: 1.3rem;
+        margin-left: 1rem;
+    }
 
+    .project-about-section {
+        font-size: 16px;
+        margin: 5rem 2rem 0 2rem;
+    }
+
+    .mobile-live {
+        margin-left: 0;
+    }
+
+    .mobile-git {
+        margin-right: 0;
+    }
+
+    .project-image {
+        width: 275px;
+        height: 150px;
+    }
+}

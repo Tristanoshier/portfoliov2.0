@@ -115,3 +115,19 @@
         margin-left: 11rem;
     }
 }
+
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .projects {
+        height: 75rem;
+    }
+
+    .projects-title {
+        margin-left: 4.5rem;
+        font-size: 5rem;
+    }
+
+    .app-btn {
+        margin-bottom: 30px;
+    }
+}

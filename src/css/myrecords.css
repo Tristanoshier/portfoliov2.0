@@ -32,3 +32,11 @@
     background-color: var(--main-blue);
     border: solid var(--main-blue) 1px;
 }
+
+@media(max-width: 414px){
+
+    .record-title {
+        margin-top: 2.4rem;
+        font-size: 3.5rem;
+    }
+}

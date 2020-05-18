@@ -60,3 +60,19 @@
         margin-top: 2rem;
     }
 }
+
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .skills {
+        height: 110vh;
+    }
+    
+    .skills-title {
+        margin-left: 6.5rem;
+        font-size: 5rem;
+    }
+
+    .skill-item {
+        margin-bottom: 20px;
+    }
+}

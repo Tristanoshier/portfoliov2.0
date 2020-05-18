@@ -46,3 +46,11 @@
         font-size: 3.5rem;
     }
 }
+
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .space-title {
+        font-size: 1.7rem;
+        margin-top: 3.5rem;
+    }
+}
