@@ -85,3 +85,10 @@
         margin-left: 2.7rem;
     }
 }
+
+/* iPhone 5/SE */
+@media(max-width: 320px) {
+    .contact-title {
+        margin-left: 1rem;
+    }
+}

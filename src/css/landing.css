@@ -94,3 +94,10 @@
         font-size: 3.4rem;
     }
 }
+
+/* iPhone 5/SE */
+@media(max-width: 320px) {
+    .name-header {
+        font-size: 3rem;
+    }
+}

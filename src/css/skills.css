@@ -94,3 +94,15 @@
         margin-left: 5.5rem;
     }
 }
+
+/* iPhone 5/SE */
+@media(max-width: 320px) {
+    .skills {
+        height: 125vh;
+    }
+
+    .skills-title {
+        margin-left: 4rem;
+    }
+}
+

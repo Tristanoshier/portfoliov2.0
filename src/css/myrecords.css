@@ -41,10 +41,19 @@
     }
 }
 
-/* Galaxy S5, Moto G4 */
-@media(max-width: 360px) {
+/* iPhone X */
+@media(max-width: 375px) {
     .record-title {
         margin-top: 2.8rem;
         font-size: 3rem;
+    }
+}
+
+
+/* iPhone 5/SE */
+@media(max-width: 320px) {
+    .record-title {
+        margin-top: 3rem;
+        font-size: 2.5rem;
     }
 }

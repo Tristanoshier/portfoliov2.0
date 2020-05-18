@@ -147,5 +147,12 @@
     }
 }
 
+/* iPhone 5/SE */
+@media(max-width: 320px) {
+    .menu-wrap .menu > div > div > ul > li {
+        font-size: 3rem;
+    }
+}
+
 
 
