@@ -33,6 +33,13 @@
     border: solid var(--main-blue) 1px;
 }
 
+/* iPhone 6, 7, 8, 11 */
+@media(max-width: 414px){
+    .pet-pals-title {
+        margin-top: 2.4rem;
+        font-size: 3.5rem;
+    }
+}
 
 /* Galaxy S5, Moto G4 */
 @media(max-width: 360px) {
