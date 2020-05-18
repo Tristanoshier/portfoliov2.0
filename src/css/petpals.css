@@ -33,3 +33,12 @@
     border: solid var(--main-blue) 1px;
 }
 
+
+/* Galaxy S5, Moto G4 */
+@media(max-width: 360px) {
+    .pet-pals-title {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+}
+
