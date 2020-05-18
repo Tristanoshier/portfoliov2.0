@@ -40,6 +40,13 @@
     }
 }
 
+@media(max-width: 840px) {
+    .space-title {
+        margin-top: 2.5rem;
+        font-size: 3.5rem;
+    }
+}
+
 /* iPad */
 @media(max-width: 768px) {
     .space-title {

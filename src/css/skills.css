@@ -51,13 +51,42 @@
     }  
 }
 
+@media(max-width: 974px) {
+    .skills {
+        height: 110vh;
+    }
+}
+
+@media(max-width: 840px) {
+    .skill-item {
+        margin-bottom: 10px;
+    }
+
+    .skills-layout {
+        margin-top: 2rem;
+    }
+}
+
 /* iPad */
 @media(max-width: 768px) {
     .skills-title {
         margin-left: 15rem;
     }
-    .skills-layout {
-        margin-top: 2rem;
+    
+}
+
+@media(max-width: 630px) {
+    .skills {
+        height: 110vh;
+    }
+    
+    .skills-title {
+        margin-left: 6.5rem;
+        font-size: 5rem;
+    }
+
+    .skill-item {
+        margin-bottom: 20px;
     }
 }
 

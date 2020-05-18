@@ -43,14 +43,20 @@
     }
 }
 
+@media(max-width: 1200px) {
+    .occupation-header {
+        height: 60vh;
+    }
+}
+
 @media(max-width: 1050px) {
     .name-header {
         font-size: 8rem;
-        height: 60vh;
+        height: 50vh;
     }
 
     .occupation-header {
-        height: 25vh;
+        height: 55vh;
     }
 }
 
@@ -65,6 +71,12 @@
     }
 }
 
+@media(max-width: 840px) {
+    .name-header {
+        font-size: 5rem;
+    }
+}
+
 /* iPad */
 @media(max-width: 768px) {
     .name-header {
@@ -73,6 +85,17 @@
 
     .occupation-header {
         font-size: 2rem;
+    }
+}
+@media(max-width: 630px) {
+    .name-header {
+        font-size: 3.6rem;
+        height: 62vh;
+    }
+
+    .occupation-header {
+        font-size: 1.5rem;
+        height: 9vh;
     }
 }
 /* iPhone 6 Plus, 7 Plus, 8 Plus, 11 */

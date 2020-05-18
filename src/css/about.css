@@ -94,14 +94,28 @@
     margin-right: 3.5rem;
 }
 
-/* iPad */
-@media(max-width: 768px) {
+@media(max-width: 840px) {
     .about-text {
         margin-right: 0;
     }
+}
+
+/* iPad */
+@media(max-width: 768px) {
 
     .about-title {
         margin-left: 13rem;
+    }
+}
+
+@media(max-width: 630px) {
+    .about-title {
+        margin-left: 5.5rem;
+        font-size: 5rem;
+    }
+    .about-text {
+        font-size: 14px;
+        margin: 0 2rem 0 2rem;
     }
 }
 
@@ -124,7 +138,6 @@
         margin-left: 4.5rem;
     }
 }
-
 
 /* iPhone 5/SE */
 @media(max-width: 320px) {

@@ -48,14 +48,24 @@
     color: var(--main-white)
 }
 
-@media(max-width: 815px) {
 
+@media(max-width: 630px) {
     .contact-title {
-        margin-left: 11rem;
+        margin-left: 2rem;
+        font-size: 5rem;
     }
+}
+
+@media(max-width: 840px) {
     .contact-layout {
         margin-top: 2rem;
         padding: 0;
+    }
+}
+
+@media(max-width: 815px) {
+    .contact-title {
+        margin-left: 11rem;
     }
 }
 
