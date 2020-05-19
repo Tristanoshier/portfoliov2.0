@@ -14,6 +14,7 @@
     justify-content: center;
     text-align: center;
     height: 40vh;
+    letter-spacing: 8px;
     font-family: var(--main-heading-font);
     font-size: 12rem;
     color: var(--main-orange);
@@ -27,6 +28,7 @@
     justify-content: center;
     text-align: center;
     height: 82vh;
+    letter-spacing: 5px;
     font-family: var(--main-heading-font);
     font-size: 2.5rem;
     color: var(--main-orange);
@@ -101,20 +103,23 @@
 /* iPhone 6 Plus, 7 Plus, 8 Plus, 11 */
 @media(max-width: 414px){
     .name-header {
-        font-size: 3.6rem;
-        height: 62vh;
+        font-size: 5.6rem;
+        letter-spacing: 8px;
+        height: 46vh;
+        line-height: 6rem;
     }
 
     .occupation-header {
         font-size: 1.5rem;
-        height: 9vh;
+        letter-spacing: 3px;
+        height: 45vh;
     }
 }
 
 /* iPhone 6, 7, 8 */
 @media(max-width: 375px) {
     .name-header {
-        font-size: 3.4rem;
+        font-size: 5rem;
     }
 }
 

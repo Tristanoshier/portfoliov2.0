@@ -29,8 +29,7 @@ export default function Projects() {
                     <Link to="/petpals"><button className="app-btn">See More</button></Link>
                 </div>
                 <div className="app-layout">
-                    {/* change when app is live */}
-                    <a href="https://to-mars-weather-api.web.app/" target="_blank"> 
+                    <a href="https://solarsystemvisualizer-75b91.firebaseapp.com/" target="_blank"> 
                         <div className="solar-app">
                             <FontAwesomeIcon className="solar-app-icon" icon={faSpaceShuttle} size="3x"></FontAwesomeIcon>
                         </div>
