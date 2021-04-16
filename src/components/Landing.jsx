@@ -23,7 +23,7 @@ export default function Landing() {
             >
                 {props => (
                     <div style={props}>
-                        <div className="occupation-header">Junior Software Engineer</div> 
+                        <div className="occupation-header">Software Engineer</div> 
                     </div>
                 )}
             </Spring>

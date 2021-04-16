@@ -19,14 +19,14 @@ export default function About() {
             <div data-aos="fade-up" className="about-title">About</div>
             <div data-aos="fade-up" className="about-content">
                 <p className="about-text">
-                    I'm currently a full-stack developer seeking a position in Software Development/Web Development that will challenge me and further my coding skills. I enjoy problem-solving, creative thinking, and am very adaptable to any team environment. Throughout past educational and work experiences, I have met strict project deadlines, developed unique floor plans, and have worked in many different team environments. All of these experiences have prepared me for a multitude of situations I will face on the job in the tech world.
+                Ambitious software developer who is passionate about lifelong learning, continuous development, and problem solving. My experience in the field has taught me to meet tight deadlines while applying my understanding of common web technologies, languages, and frameworks. I'm looking for a company that values their culture and impacting people so I can continue to grow as a developer.
                 </p>
                 <div className="about-picture tooltip">
                     <span class="tooltiptext"><FontAwesomeIcon icon={faCamera} size="sm"></FontAwesomeIcon> @kylie.haslem</span>
                     <div className="picture-of-me"></div>
                     <div className="about-links">
                         <a className="about-link" href="https://github.com/Tristanoshier" target="_blank"><p className="about-icon">GitHub <FontAwesomeIcon icon={faGithubSquare} size="lg"></FontAwesomeIcon></p></a>
-                        <a className="about-link" href={require("../assets/Tristan Oshier's Resume.pdf")} download target="_blank"><p>Resume <FontAwesomeIcon icon={faFile} size="lg"></FontAwesomeIcon></p></a>
+                        <a className="about-link" href={require("../assets/Tristans Resume.pdf")} download target="_blank"><p>Resume <FontAwesomeIcon icon={faFile} size="lg"></FontAwesomeIcon></p></a>
                     </div>  
                 </div>
             </div>

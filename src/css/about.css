@@ -30,16 +30,12 @@
 }
 
 .picture-of-me {
-    background-image: url("../assets/IMG_0444 2.JPG");
+    background-image: url("../assets/picofme.png");
     width: 286px;
     height: 367px;
     background-size: cover;
     border-radius: 5%;
     transition: background-image 0.3s ease-in-out;
-}
-
-.picture-of-me:hover {
-    background-image: url("../assets/picofme.png")
 }
 
 /* code is from w3schools */

@@ -22,21 +22,21 @@ export default function PetPals() {
                             <div className="project-section-link pet-pals-section-link">
                                 <FontAwesomeIcon onClick={() => goBack()} icon={faArrowAltCircleLeft} size="4x"></FontAwesomeIcon>
                             </div>
-                            <h1 className="project-title pet-pals-title">PetPals</h1>
+                            <h1 className="project-title pet-pals-title">Facebook</h1>
                         </div>
 
                         <div className="project-about-section pet-pals-about-section">
                             <p className="overview-section">
-                                <strong>About:</strong> PetPals is a pet-focused social media application. It was designed for people to take a break from the competition of social media. Now users can just watch pets all day while showing off their's. This project was my final project at Eleven Fifty Academy and was built fully remotely (due to COVID-19) with a team of three. The project was built in three weeks and was our first attempt at creating a social media application.
+                                <strong>About:</strong> This has been a recent project I started working on. Whenever I have time away from work, I have been trying to add more features to this project since Facebook is such a huge platform with so much to build on. Currently, the project only allows you to post and see other people's posts along with seeing where future features will be added with a fully built out UI. The project also uses Google authentication to login so you can immediately see what it would be like to create an account. I hope you enjoy this work in progress!
                             </p>
                             <p className="overview-section">
-                                <strong>Tech Stack:</strong> This application uses React.js and TypeScript on the front-end and Node.js and Express.js on the back-end. We used PostgreSQL and Sequelize to set up our database and AWS S3 with Multer for file uploading and storing our user's images. Finally, we used Heroku with a cloud instance of Postgres to host the project. This project might take around 30 seconds to load on startup and when signing up for an account since we are hosting on a free version of Heroku.
+                                <strong>Tech Stack:</strong> This application uses React and and the React context API on the front-end along with Firebase Hosting and the Firebase's Firestore realtime Database. 
                             </p>
                         </div>
 
                         <div className="live-links">
-                            <a href="https://tat-petpals-client.herokuapp.com/" target="_blank"><button className="mobile-live project-section-btn live-btn pet-pals-section-btn">See Live</button></a>
-                            <a href="https://github.com/Tristanoshier/PetPals-client" target="_blank"><button className="mobile-git project-section-btn live-btn pet-pals-section-btn">GitHub Repo</button></a>
+                            <a href="https://facebook-clone-6e52e.web.app/" target="_blank"><button className="mobile-live project-section-btn live-btn pet-pals-section-btn">See Live</button></a>
+                            <a href="https://github.com/Tristanoshier/facebook-clone" target="_blank"><button className="mobile-git project-section-btn live-btn pet-pals-section-btn">GitHub Repo</button></a>
                         </div>
 
                         <div className="image-section">

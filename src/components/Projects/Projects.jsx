@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDog, faSpaceShuttle, faRecordVinyl } from '@fortawesome/free-solid-svg-icons'
+import { faSpaceShuttle, faRecordVinyl } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 export default function Projects() {
 
@@ -20,12 +21,12 @@ export default function Projects() {
 
             <div data-aos="fade-up" className="project-section">
                 <div className="app-layout">
-                    <a href="https://tat-petpals-client.herokuapp.com/" target="_blank">
+                    <a href="https://facebook-clone-6e52e.web.app/" target="_blank">
                         <div className="pet-app">
-                            <FontAwesomeIcon className="pet-app-icon" icon={faDog} size="4x"></FontAwesomeIcon>
+                            <FontAwesomeIcon className="pet-app-icon" icon={faFacebook} size="4x"></FontAwesomeIcon>
                         </div>
                     </a>
-                    <p className="app-name">PetPals</p>
+                    <p className="app-name">Facebook</p>
                     <Link to="/petpals"><button className="app-btn">See More</button></Link>
                 </div>
                 <div className="app-layout">
