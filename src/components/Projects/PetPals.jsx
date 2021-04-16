@@ -30,7 +30,7 @@ export default function PetPals() {
                                 <strong>About:</strong> This has been a recent project I started working on. Whenever I have time away from work, I have been trying to add more features to this project since Facebook is such a huge platform with so much to build on. Currently, the project only allows you to post and see other people's posts along with seeing where future features will be added with a fully built out UI. The project also uses Google authentication to login so you can immediately see what it would be like to create an account. I hope you enjoy this work in progress!
                             </p>
                             <p className="overview-section">
-                                <strong>Tech Stack:</strong> This application uses React and and the React context API on the front-end along with Firebase Hosting and the Firebase's Firestore realtime Database. 
+                                <strong>Tech Stack:</strong> This application uses React and the React context API on the front-end along with Firebase Hosting and the Firebase's Firestore realtime Database. 
                             </p>
                         </div>
 
