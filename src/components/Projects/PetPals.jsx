@@ -40,10 +40,10 @@ export default function PetPals() {
                         </div>
 
                         <div className="image-section">
-                            <img className="project-image" src={require("../../assets/petpals2.png")} alt="home page of PetPals"></img>
-                            <img className="project-image" src={require("../../assets/petpals1.png")} alt="home page of PetPals"></img>
-                            <img className="project-image" src={require("../../assets/petpals3.png")} alt="home page of PetPals"></img>
-                            <img className="project-image" src={require("../../assets/petpals4.png")} alt="home page of PetPals"></img>
+                            <img className="project-image" src={require("../../assets/facebook1.png")} alt="home page of PetPals"></img>
+                            <img className="project-image" src={require("../../assets/facebook3.png")} alt="home page of PetPals"></img>
+                            <img className="project-image" src={require("../../assets/facebook2.png")} alt="home page of PetPals"></img>
+                            <img className="project-image" src={require("../../assets/facebook4.png")} alt="home page of PetPals"></img>
                         </div>
                     </div>
                 )}
